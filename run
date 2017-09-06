@@ -1,0 +1,6 @@
+#!/bin/bash  
+echo building browser code...
+ionic cordova build browser
+echo *************************************** Build Succeed Emulating browser code *************************************
+ionic cordova emulate browser
+echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   Check browser  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

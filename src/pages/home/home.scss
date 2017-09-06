@@ -1,3 +1,54 @@
-page-home {
-
-}
+    $smallFont: 14px;
+    $mediumFont:15px;
+    $iconFonts:12px;
+    $iconPadding:0px;
+    $iconMargin:0px;
+    $stdBorderRadius:5px;
+    $lowPriority:rgba(34, 34, 34, 0.45); //$action-sheet-ios-border-color
+    $mediumPriority:rgba(0, 100, 0, 0.65);
+    $highPriority:rgba(245, 61, 61, 0.65);
+    $closedItem:rgba(0, 100, 0, 0.1);
+    $openItem:rgba(160, 223, 245, 0.3);
+    page-home {
+        .close {
+            // color: white;
+            background: transparent;
+            border: 1px solid $closedItem;
+            border-radius: $action-sheet-ios-border-radius;
+            margin-top: 0.5vh;
+            margin-bottom: 0.5vh;
+        }
+        .open {
+            // color: $openItem;
+            background: rgba(235, 230, 66, 0.25); //rgba(66, 192, 235, 0.5);
+            border: 1px solid $openItem;
+            border-radius: $action-sheet-ios-border-radius;
+            margin-top: 0.5vh;
+            margin-bottom: 0.5vh;
+        }
+        .bottomIcon {
+            font-size: $smallFont;
+        }
+        .headerClass {
+            // border-radius: 50px;
+            // // border: 1px solid grey;
+            // width: 50%;
+            // margin-left: 25%;
+        }
+        .cardCss {
+            border-radius: $stdBorderRadius;
+        }
+        .mediumPriority {
+            color: $mediumPriority !important;
+        }
+        .lowPriority {
+            color: $lowPriority !important;
+        }
+        .highPriority {
+            color: $highPriority !important;
+        }
+        .activityInputBox {
+            background: transparent;
+            border: none;
+        }
+    }
