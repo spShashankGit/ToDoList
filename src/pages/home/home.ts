@@ -14,20 +14,26 @@ export class HomePage {
   items: any = [{
     "date": "Tue Nov 7 2017 00:00:00 GMT+0530 (IST)",
     "actvities": [
+      // {
+      //   "activityName": "Transcript Application & Form Upload",
+      //   "status": "close",
+      //   "priority": "High",
+      //   "editable": true
+      // },
+      // {
+      //   "activityName": "LOR From HR",
+      //   "status": "close",
+      //   "priority": "Medium",
+      //   "editable": true
+      // },
       {
-        "activityName": "Transcript Application & Form Upload",
-        "status": "open",
-        "priority": "High",
-        "editable": true
-      },
-      {
-        "activityName": "LOR From HR",
+        "activityName": "SOP ",
         "status": "open",
         "priority": "Medium",
         "editable": true
       },
       {
-        "activityName": "SOP ",
+        "activityName": "CV",
         "status": "open",
         "priority": "High",
         "editable": true
@@ -35,30 +41,6 @@ export class HomePage {
 
     ]
   }
-    // {
-    //   "date": "Thu Aug 31 2017 00:00:00 GMT+0530 (IST)",
-    //   "actvities": [
-    //     {
-    //       "activityName": "Activity 4",
-    //       "status": "close",
-    //       "priority": "High",
-    //       "editable": true
-    //     },
-    //     {
-    //       "activityName": "Activity 5",
-    //       "status": "open",
-    //       "priority": "medium",
-    //       "editable": true
-    //     },
-    //     {
-    //       "activityName": "Activity 6",
-    //       "status": "close",
-    //       "priority": "Low",
-    //       "editable": true
-    //     }
-
-    //   ]
-    // }
   ];
 
   addDay(date: any) {
