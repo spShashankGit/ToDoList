@@ -15,7 +15,6 @@
             <ion-list>
                 <ion-item-group reorder="true" (ionItemReorder)="reorderItems($event,item.actvities)">
                     <ion-item *ngFor="let activity of item.actvities" [ngClass]="{'open':(activity.status == 'open'),'close': (activity.status == 'close')}">
-<<<<<<< HEAD
                         <ion-icon class="mediumPriority" [ngClass]="{'lowPriority':(activity.priority == 'Low'),'highPriority':(activity.priority == 'High')}"
                             name="ios-disc"></ion-icon>
                         <span text-wrap>
@@ -32,31 +31,17 @@
                         <button ion-button (click)="setPriority('High',activity)" color="danger" clear icon-only>
                             <ion-icon class="bottomIcon" name="md-arrow-round-up">High</ion-icon>
                         </button>
-=======
-                        <ion-icon class="mediumPriority" [ngClass]="{'lowPriority':(activity.priority == 'Low'),'highPriority':(activity.priority == 'High')}" name="ios-disc"></ion-icon><span text-wrap> <input type="text" class="activityInputBox" [ngModel]="activity.activityName" [disabled]="!activity.editable"></span>
-                        <hr>
-                        <!-- Low  -->
-                        <button ion-button (click)="setPriority('Low',activity)" color="dark" clear icon-only><ion-icon class="bottomIcon" name="md-arrow-round-down">Low</ion-icon></button>
-                        <!-- Med  -->
-                        <button ion-button (click)="setPriority('Medium',activity)" class="bottomIcon" color="secondary" clear>Med.</button>
-                        <!-- High  -->
-                        <button ion-button (click)="setPriority('High',activity)" color="danger" clear icon-only><ion-icon class="bottomIcon" name="md-arrow-round-up">High</ion-icon></button>
->>>>>>> a29c0dd76990942da99f773d47908678583a6325
                         <!-- Edit / Save -->
                         <!-- <div style="float:right">
                             <button ion-button (click)="editSaveActivityName(item.date ,activity,'edit')" color="primary" clear><ion-icon *ngIf="activity.editable" class="bottomIcon" name="md-create">Edit</ion-icon></button>
                         </div> -->
                         <!-- Done  -->
                         <div style="float:right">
-<<<<<<< HEAD
                             <button ion-button color="primary" clear icon-only (click)="toggleTaskStatus(activity)">
                                 <ion-icon [hidden]="activity.status=='open'" class="bottomIcon" name="md-done-all"></ion-icon>
                                 <ion-icon color="danger" [hidden]="activity.status=='close'" class="bottomIcon"
                                     name="md-close-circle"></ion-icon>
                             </button>
-=======
-                            <button ion-button color="primary" clear icon-only (click)="toggleTaskStatus(activity)"><ion-icon [hidden]="activity.status=='open'" class="bottomIcon" name="md-done-all"></ion-icon><ion-icon color="danger" [hidden]="activity.status=='close'" class="bottomIcon"  name="md-close-circle"></ion-icon></button>
->>>>>>> a29c0dd76990942da99f773d47908678583a6325
                         </div>
                     </ion-item>
                 </ion-item-group>
