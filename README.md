@@ -23,11 +23,3 @@ $ ionic cordova run ios
 ```
 
 Substitute ios for android if not on a Mac.
-
-
-
- ```` NOTES ````
- ````
- WILP M.Tech Software Systems: http://www.bits-pilani.ac.in/uploads/WILP_Brochures/M%20Tech%20in%20Software%20Systems.pdf
- Letter of Reference From Employer : https://www.ethz.ch/content/dam/ethz/associates/services/Anstellung-Arbeiten/fuehrung-und-entwicklung/Beispiel_Letter_of_Reference.pdf
- ````
